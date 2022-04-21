@@ -1,0 +1,22 @@
+"E:\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=E:/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\WALTON\Downloads\LaboratoryLib -B C:\Users\WALTON\Downloads\LaboratoryLib\cmake-build-release
+CMake Error at E:/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find wxWidgets (missing: wxWidgets_LIBRARIES
+  wxWidgets_INCLUDE_DIRS core base xrc html xml)
+Call Stack (most recent call first):
+  E:/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+  E:/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/FindwxWidgets.cmake:1025 (find_package_handle_standard_args)
+  CMakeLists.txt:11 (find_package)
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.22)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/WALTON/Downloads/LaboratoryLib/cmake-build-release/CMakeFiles/CMakeOutput.log".
